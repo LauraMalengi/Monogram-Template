@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* overflow-x: hidden; */
+}
+
+/* Wireframing code includes the borders */
+.navbar-section {
+    border: 3px solid green;
+    height: 9vh;
+    position: fixed;
+    width: 95vw;
+    top: 5%;
+    left: 2%;
+}
+
+nav {
+    display: flex;
+}
+
+.banner-one {
+    border: 3px solid red;
+    width: 100vw;
+    height: 100vh;
+}
+
+.banner-two {
+    border: 3px solid red;
+    width: 100vw;
+    height: 50vh;
+}
+
+.container {
+    border: 3px solid yellow;
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto / auto;
+    grid-gap: 4px;
+}
+
+.container-two {
+    border: 3px solid yellow;
+    width: 100vw;
+    min-height: 100vh;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(12);
+}
+
+.product-section-item {
+    border: 3px solid purple;
+    max-width: 60vw;
+    height: 40vh;
+}
+
+.footer-content {
+    border: 3px solid blue;
+    width: 100vw;
+    height: 40vh;
+}
