@@ -5,7 +5,7 @@
 }
 
 body {
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 /* Wireframing code includes the borders */
@@ -46,16 +46,34 @@ nav {
 
 .container-two {
     border: 3px solid yellow;
-    width: 100vw;
+    min-width: 100vw;
     min-height: 100vh;
-    grid-template-columns: auto auto;
-    grid-template-rows: repeat(12);
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto auto;
 }
 
 .product-section-item {
     border: 3px solid purple;
-    max-width: 60vw;
+    /* max-width: 60vw; */
     height: 40vh;
+    display: flex;
+}
+
+/* .product-section-item img {
+    border: pink 3px solid;
+    height: 30vh;
+    width: auto;
+} */
+
+.product-section-item-one {
+    border: 3px solid purple;
+}
+
+.product-section-items {
+    border: 3px solid brown;
+    height: 60vh;
+    max-width: 40vw;
 }
 
 .footer-content {
