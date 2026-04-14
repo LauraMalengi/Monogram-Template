@@ -88,10 +88,60 @@ nav {
 }
 
 .footer-content {
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     width: 100vw;
     height: 40vh;
     display: flex;
     gap: 20vh;
     background-color:#1A2456 ;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #EFC2B3;
+}
+
+a{
+     text-decoration: none;
+     color:#EFC2B3 ;
+}
+
+a:hover{
+    color: red;
+    text-decoration:underline;
+}
+
+.cookie{
+    background-color: #C4BEB6;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    width: 100vw;
+    height: 9.5vh;
+    align-items: center;
+    
+}
+
+.cookie button{
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    background-color: #1A2456;
+    border: none;
+}
+
+button{
+    border-radius: 50px;
+    width: 90px;
+    height:30px;
+    background-color: #EFC2B3;
+    border: none;
+}
+
+textarea{
+ border-color:#EFC2B3;
+ border-width: 2px;
+ background-color: #1A2456;
+ text-align: center;
+ justify-content: center;
 }
