@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    /* overflow-y: hidden; */
 }
 
 /* Wireframing code includes the borders */
@@ -13,9 +14,9 @@ body {
     border: 3px solid green;
     height: 9vh;
     position: fixed;
-    width: 95vw;
-    top: 5%;
-    left: 2%;
+    width: 98vw;
+    top: 2%;
+    right: 0%;
 }
 
 nav {
@@ -36,7 +37,7 @@ nav {
 
 .container {
     border: 3px solid yellow;
-    width: 100vw;
+    min-width: 100vw;
     min-height: 100vh;
     display: grid;
     grid-template-columns: auto auto;
@@ -56,15 +57,25 @@ nav {
 .product-section-item {
     border: 3px solid purple;
     /* max-width: 60vw; */
-    height: 40vh;
-    display: flex;
+    height: 55vh;
+    display: grid;
+    grid-template-rows: auto auto;
+    max-width: 48vw;
 }
 
-/* .product-section-item img {
+.product-section-item img {
     border: pink 3px solid;
-    height: 30vh;
-    width: auto;
-} */
+    height: 40vh;
+    width: 47vw;
+}
+
+.product-section-item h3 {
+    border: 3px solid black;
+}
+
+.product-section-item p {
+    border: 3px solid green;
+}
 
 .product-section-item-one {
     border: 3px solid purple;
