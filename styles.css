@@ -6,22 +6,47 @@
 
 body {
     overflow-x: hidden;
-    /* overflow-y: hidden; */
 }
 
 /* Wireframing code includes the borders */
-.navbar-section {
-    border: 3px solid green;
-    height: 9vh;
+.main-nav {
     position: fixed;
-    width: 98vw;
-    top: 2%;
-    right: 0%;
+    width: 100%;
+    height: 60px; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 40px; 
+    box-sizing: border-box;
+    background-color: #1A2456;
 }
 
-nav {
-    display: flex;
+
+.logo-container svg {
+    height: 40px; 
+    width: auto;
+    color: #EFC2B3;
 }
+
+
+.links-container {
+    display: flex;
+    gap: 20px;
+}
+
+.links-container a {
+    text-decoration: none;
+    color: #EFC2B3;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.links-container a:hover{
+    color:palevioletred;
+    text-decoration: none;
+}
+
 
 .banner-one {
     border: 3px solid red;
@@ -56,7 +81,6 @@ nav {
 
 .product-section-item {
     border: 3px solid purple;
-    /* max-width: 60vw; */
     height: 55vh;
     display: grid;
     grid-template-rows: auto auto;
@@ -118,6 +142,8 @@ a:hover{
     width: 100vw;
     height: 9.5vh;
     align-items: center;
+    position: sticky;
+    bottom: 0;
     
 }
 
@@ -144,4 +170,124 @@ textarea{
  background-color: #1A2456;
  text-align: center;
  justify-content: center;
+}
+
+ul{
+    list-style: none;
+    display:flex;
+    align-items: center;
+    gap: 20px; 
+}
+
+svg{
+    width: 3vh;
+    border-radius: 50px;
+}
+
+.product-section-items-1{
+background-image: url(image/Monogram_Keyboardv2_1366x1363_crop_center.png.webp);
+background-size:contain;
+background-repeat: no-repeat;
+ height: 55vh;
+ width: 24vw;
+ border: pink 3px solid;
+}
+
+.product-section-items-2{
+background-image: url(image/MonogramMultipad_1366x993_crop_center.png.webp);
+background-size:cover;
+background-repeat: no-repeat;
+ height: 55vh;
+ width: 24vw;
+ border: pink 3px solid;
+}
+
+.product-section-items-3{
+background-image: url(image/Monogram_Keyboard_2_878639a5-2865-4c4f-a21e-498f3a3db3b8_1366x768_crop_center.jpg.webp);
+background-size:contain;
+background-repeat: no-repeat;
+ height: 60vh;
+ width: 25vw;
+ border: pink 3px solid;
+}
+
+.product-section-items-4{
+background-image: url(image/Monogram_Keyboard_2_878639a5-2865-4c4f-a21e-498f3a3db3b8_1366x768_crop_center.jpg.webp);
+background-size:contain;
+background-repeat: no-repeat;
+ height: 60vh;
+ width: 25vw;
+ border: pink 3px solid;
+}
+
+.product-section-items-5{
+background-image: url(image/Monogram_Keyboard_2_878639a5-2865-4c4f-a21e-498f3a3db3b8_1366x768_crop_center.jpg.webp);
+background-size:contain;
+background-repeat: no-repeat;
+ height: 60vh;
+ width: 25vw;
+ border: pink 3px solid;
+}
+
+.product-section-items-6{
+background-image: url(image/Monogram_Keyboard_2_878639a5-2865-4c4f-a21e-498f3a3db3b8_1366x768_crop_center.jpg.webp);
+background-size:contain;
+background-repeat: no-repeat;
+ height: 60vh;
+ width: 25vw;
+ border: pink 3px solid;
+}
+
+.product-section-items-7{
+background-image: url(image/Monogram_Keyboard_2_878639a5-2865-4c4f-a21e-498f3a3db3b8_1366x768_crop_center.jpg.webp);
+background-size:contain;
+background-repeat: no-repeat;
+ height: 60vh;
+ width: 25vw;
+ border: pink 3px solid;
+}
+
+.product-section-items-8{
+background-image: url(image/Monogram_Keyboard_2_878639a5-2865-4c4f-a21e-498f3a3db3b8_1366x768_crop_center.jpg.webp);
+background-size:contain;
+background-repeat: no-repeat;
+ height: 60vh;
+ width: 25vw;
+ border: pink 3px solid;
+}
+
+.product-section-items-9{
+background-image: url(image/Monogram_Keyboard_2_878639a5-2865-4c4f-a21e-498f3a3db3b8_1366x768_crop_center.jpg.webp);
+background-size:contain;
+background-repeat: no-repeat;
+ height: 60vh;
+ width: 25vw;
+ border: pink 3px solid;
+}
+
+.product-section-items-10{
+background-image: url(image/Monogram_Keyboard_2_878639a5-2865-4c4f-a21e-498f3a3db3b8_1366x768_crop_center.jpg.webp);
+background-size:contain;
+background-repeat: no-repeat;
+ height: 60vh;
+ width: 25vw;
+ border: pink 3px solid;
+}
+
+.product-section-items-11{
+background-image: url(image/Monogram_Keyboard_2_878639a5-2865-4c4f-a21e-498f3a3db3b8_1366x768_crop_center.jpg.webp);
+background-size:contain;
+background-repeat: no-repeat;
+ height: 60vh;
+ width: 25vw;
+ border: pink 3px solid;
+}
+
+.product-section-items-12{
+background-image: url(image/Monogram_Keyboard_2_878639a5-2865-4c4f-a21e-498f3a3db3b8_1366x768_crop_center.jpg.webp);
+background-size:contain;
+background-repeat: no-repeat;
+ height: 60vh;
+ width: 25vw;
+ border: pink 3px solid;
 }
