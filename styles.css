@@ -4,8 +4,14 @@
     box-sizing: border-box;
 }
 
+:root {
+
+}
+
 body {
     overflow-x: hidden;
+    /* overflow-x: hidden; */
+    /* overflow-y: hidden; */
 }
 
 /* Wireframing code includes the borders */
@@ -26,6 +32,10 @@ body {
     height: 40px; 
     width: auto;
     color: #EFC2B3;
+    width: 98vw;
+    top: 2%;
+    right: 0%;
+    z-index: 1;
 }
 
 
@@ -51,13 +61,74 @@ body {
 .banner-one {
     border: 3px solid red;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
+    background-image: url(image/Pasted\ image.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
 }
+
+.banner-one h1{
+    margin-top: 3rem;
+    font-size: 2.5rem;
+    letter-spacing: 4px;
+    left: 26%;
+    color: #1a2456;
+}
+
+.banner-one p {
+    font-weight: 300;
+    font-size: 1.125rem;
+    color: #1a2456;
+    left: 41%;
+    margin-top: 10%;
+}
+
+.text-one {
+    position: absolute;
+} 
+
+.text-two {
+    position: absolute;
+}
+
+
 
 .banner-two {
     border: 3px solid red;
     width: 100vw;
-    height: 50vh;
+    height: 80vh;
+    background-image: url(image/Pasted\ image\ \(2\).png);
+    background-position: center;
+    background-size: contain;
+    background-color: grey;
+    display: flex;
+}
+
+.banner-two h1{
+    margin-top: 3rem;
+    font-size: 2.5rem;
+    letter-spacing: 4px;
+    left: 26%;
+    color: #1a2456;
+}
+
+.banner-two p {
+    font-weight: 300;
+    font-size: 1.125rem;
+    color: #1a2456;
+    left: 41%;
+    margin-top: 10%;
+}
+
+.text-section-banner {
+    display: block;
+    align-items: center;
+}
+
+section {
+    background-color: #f0efed;
+    position: relative;
 }
 
 .container {
@@ -83,13 +154,17 @@ body {
     border: 3px solid purple;
     height: 55vh;
     display: grid;
+    /* max-width: 60vw; */
+    height: auto;
+    display: block;
     grid-template-rows: auto auto;
     max-width: 48vw;
 }
 
 .product-section-item img {
     border: pink 3px solid;
-    height: 40vh;
+    float: inline-end;
+    height: auto;
     width: 47vw;
 }
 
@@ -291,3 +366,5 @@ background-repeat: no-repeat;
  width: 25vw;
  border: pink 3px solid;
 }
+}
+
