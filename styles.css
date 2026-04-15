@@ -160,9 +160,3 @@ section {
     height: 40vh;
 }
 
-@media (max-width: 768px) {
-    .container-two {
-        display: grid;
-        grid-template-columns: auto;
-    }
-}
