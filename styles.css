@@ -8,9 +8,10 @@ body {
     font-family: "prompt";
     font-size: 1rem;
     font-weight: 300; 
-        line-height: 1.5;
+    line-height: 1.5;
     background-color: #f0efed;
     color: #1a2456;
+    overflow-x: hidden;
 }
 
 /* Wireframing code includes the borders */
@@ -25,6 +26,7 @@ body {
     z-index: 1;
     top: 2%;
     left: 1%;
+    font-weight: 100;
 }
 
 
@@ -262,10 +264,6 @@ section {
     display: inline-block;
 }
 
-.product-section-item p {
-    /* border: 3px solid green; */
-}
-
 .container-one-item h3 {
     display: inline-block;
 }
@@ -312,11 +310,11 @@ section {
     /* border: 3px solid blue; */
     width: 100vw;
     height: 40vh;
-    display: flex;
-    gap: 20vh;
+    gap: 10vh;
     background-color:#1A2456 ;
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     color: #EFC2B3;
 }
@@ -546,6 +544,9 @@ background-repeat: no-repeat;
     color: #1A2456;
 }
 
+.title {
+    margin: 10px 0;
+}
 
 @media (max-width: 1107px) {
     .container-two {
