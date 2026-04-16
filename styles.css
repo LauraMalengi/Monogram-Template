@@ -542,6 +542,10 @@ background-repeat: no-repeat;
     background-size: 60vh 60vh;
 }
 
+.product-section-items .img{
+    color: #1A2456;
+}
+
 
 @media (max-width: 1107px) {
     .container-two {
