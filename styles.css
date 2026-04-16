@@ -5,12 +5,10 @@
 }
 
 body {
-    /* overflow-x: hidden; */
-    /* overflow-y: hidden; */
     font-family: "prompt";
-    font-size: 1rem;
-    font-weight: 300;
-    line-height: 1.5;
+    /* font-size: 1rem;
+    font-weight: 300; */
+    /* line-height: 1.5; */
     background-color: #f0efed;
     color: #1a2456;
 }
@@ -18,18 +16,16 @@ body {
 /* Wireframing code includes the borders */
 .main-nav {
     position: fixed;
-    width: 100%;
+    width: 98%;
     height: 60px; 
     display: flex;
     justify-content: space-between; 
-    align-items: center;
-    padding-right: 600vh; 
-    box-sizing: border-box;
+    align-items: center; 
     background-color: #1A2456;
     z-index: 1;
-    top: 0;
+    top: 2%;
+    left: 1%;
 }
-
 
 .logo-container svg {
     height: 40px; 
@@ -39,11 +35,13 @@ body {
     top: 2%;
     right: 0%;
     z-index: 1;
+    margin: 0 5px;
 }
 
 .links-container {
     display: flex;
     gap: 20px;
+    padding: 0 50px 0 0;
 }
 
 .links-container a {
@@ -61,9 +59,10 @@ body {
 .banner-one {
     width: 100vw;
     min-height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/Pasted\ image.png');
+    background-image: url(image/Pasted\ image.png);
     background-position: center;
     background-size: cover;
+    text-align: center;
 }
 
 .text-section-banner {
@@ -91,12 +90,6 @@ body {
     color: #6c757d;
     font-weight: 300;
  }
-/* Image hover effect */
-
-.image-product:hover {
-    opacity: 0;
-}
-
 
 .banner-two {
     border: 3px solid red;
@@ -106,10 +99,19 @@ body {
     background-position: center;
     background-size: contain;
     background-color: grey;
-    display: flex;
+    display: block;
+    margin: 1rem 0;
 }
 
- 
+.contain-text {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.contain-text p {
+    margin-top: 1rem;
+}
+
 section {
     background-color: #f0efed;
     position: relative;
@@ -117,11 +119,21 @@ section {
 
 .container {
     border: 3px solid yellow;
-    width: 100vw;
-    height: 88vh;      
+    padding: 40px;
+}
+
+.product-section-one {
     display: grid;
-    grid-template-columns: auto auto;
-    gap: 0px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.image-one {
+   background-image: url(image/20221018_MonogramCC_Case_02_1366x911_crop_center.jpg.webp);
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+   height :100%;
 }
 
 .container-two {
@@ -136,17 +148,10 @@ section {
 .product-section-item {
     border: 3px solid purple;
     height: 55vh;
-    display: grid;
+    display: block;
     grid-template-rows: auto auto auto;
     width: auto;
     margin: 30px 10px;
-}
-
-.product-section-item img {
-    border: pink 3px solid;
-    /* float: inline-end; */
-    /* height: auto; */
-    width: 48vw;
 }
 
 .product-section-item h3 {
@@ -158,9 +163,6 @@ section {
     display: block;
 }
 
-.product-section-item-one {
-    border: 3px solid purple;
-}
 
 .product-section-items {
     border: 3px solid brown;
@@ -169,11 +171,9 @@ section {
 }
 
 .container-one-item {
-    width: 100vw;
-    display: flex;
-    justify-content: center;
+    grid-column: span 2;
+    height: 50vh;
     border: 3px solid pink;
-    height: 100vh;
 }
 
 .product-item {
@@ -216,7 +216,6 @@ a:hover{
     align-items: center;
     position: sticky;
     bottom: 0;
-    
 }
 
 .cookie button{
@@ -253,7 +252,7 @@ ul{
 
 svg{
     width: 3vh;
-    border-radius: 50px;
+    /* border-radius: 50px; */
 }
 
 .product-section-items-1{
