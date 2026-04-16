@@ -8,7 +8,7 @@ body {
     font-family: "prompt";
     font-size: 1rem;
     font-weight: 300; 
-    line-height: 1.5;
+        line-height: 1.5;
     background-color: #f0efed;
     color: #1a2456;
 }
@@ -92,6 +92,7 @@ body {
  .tag {
     color: #6c757d;
     font-weight: 300;
+    display: block;
  }
 
 .banner-two {
@@ -103,7 +104,7 @@ body {
     background-size: contain;
     background-color: grey;
     display: block;
-    margin: 1rem 0;
+    margin: 4rem 0;
 }
 
 .contain-text {
@@ -121,26 +122,86 @@ section {
 }
 
 .container {
-    border: 3px solid yellow;
-    padding: 40px;
+    /* border: 3px solid yellow; */
+    padding: 0 100px;
 }
 
 .product-section-one {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    gap: 10px;
 }
 
 .image-one {
-   background-image: url(image/20221018_MonogramCC_Case_02_1366x911_crop_center.jpg.webp);
+   background-image: url(image/Everyday-Bundle-Mocks-final_1366x911_crop_center.jpg.webp);
    background-position: center;
    background-size: cover;
    width: 100%;
    height :100%;
 }
 
+.image-one:hover {
+    transition: 0.3s;
+    background-image: url(image/Everyday-Bundle-Mocks-horizontal_1366x911_crop_center.jpg.webp);
+}
+
+.image-two {
+   background-image: url(image/Packaging_TravelerClosedBracket1_Monogram_May20204517_d3899632-1a43-425f-a16a-1d5b968810c7_1366x911_crop_center.jpg.webp);
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+   height :100%;
+}
+
+.image-two:hover {
+    transition: 0.3s;
+    background-image: url(image/Consoles_TravelerBracket1_Monogram_May2020_4561_30a35bd4-01b4-44db-894a-e06162d8ab77_1366x911_crop_center.jpg.webp);
+}
+
+.image-three {
+   background-image: url(image/Packaging_StudioClosedBracket1_Monogram_May20204507_548446cb-17c9-4fc2-8b12-ae1b1a308a7e_1366x911_crop_center.jpg.webp);
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+   height :100%;
+}
+
+.image-three:hover {
+    transition: 0.3s;
+    background-image: url(image/Consoles_StudioBracket1_Monogram_May2020_4558_53685b21-b09f-45b0-85a2-180d6acfafac_1366x911_crop_center.jpg.webp);
+}
+
+.image-four {
+   background-image: url(image/Packaging_MasterClosedBracket1_Monogram_May20204494_1366x911_crop_center.jpg.webp);
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+   height :100%;
+}
+
+.image-four:hover {
+    transition: 0.3s;
+    background-image: url(image/Consoles_MasterBracket1_Monogram_May2020_4555_1366x911_crop_center.jpg.webp);
+}
+
+.image-five {
+   background-image: url(image/Monogram_Keyboard_Multipad-v2_1366x925_crop_center.png.webp);
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+   height :100%;
+}
+
+.image-five:hover {
+    transition: 1;
+    background-size: cover;
+    background-position: center;
+    background-image: url(image/Monogram_Keyboard_2_878639a5-2865-4c4f-a21e-498f3a3db3b8_1366x768_crop_center.jpg.webp);
+}
+
+
 .container-two {
-    border: 3px solid yellow;
+    /* border: 3px solid yellow; */
     min-width: 100vw;
     min-height: 100vh;
     display: grid;
@@ -149,40 +210,63 @@ section {
 }
 
 .product-section-item {
-    border: 3px solid purple;
+    /* border: 3px solid purple; */
     height: 55vh;
     display: block;
     grid-template-rows: auto auto auto;
     width: auto;
-    margin: 30px 10px;
+    margin: 50px 10px;
 }
 
 .product-section-item h3 {
-    border: 3px solid black;
+    /* border: 3px solid black; */
+    display: inline-block;
 }
 
 .product-section-item p {
-    border: 3px solid green;
-    display: block;
+    /* border: 3px solid green; */
 }
 
+.container-one-item h3 {
+    display: inline-block;
+}
+
+.text {
+    display: block;
+    margin-top: 5px;
+    float: right;
+}
 
 .product-section-items {
     border: 3px solid brown;
     height: 60vh;
     max-width: 40vw;
+    display: flex;
 }
 
 .container-one-item {
     grid-column: span 2;
-    height: 50vh;
-    border: 3px solid pink;
+    margin-top: 30px;
+    height: 70vh;
+    /* border: 3px solid pink; */
 }
 
 .product-item {
     width: 100vw;
     height: auto;
     border: #1a2456;
+}
+
+.sale {
+    position: relative;
+    top: 10px;
+    display: inline-block;
+    left: 87%;
+    font-size: 10px;
+    padding: 5px 8px;
+    color: black;
+    background-color: #ff8d6b;
+    font-weight: 500;
 }
 
 .footer-content {
