@@ -135,7 +135,7 @@ button.dropbtn{
  }
 
 .banner-two {
-    border: 3px solid red;
+    /* border: 3px solid red; */
     width: 100vw;
     height: 80vh;
     background-image: url(image/Pasted\ image\ \(2\).png);
@@ -377,7 +377,7 @@ ul{
 }
 
 svg{
-    width: 3vh;
+    width: 3vw;
     /* border-radius: 50px; */
 }
 
@@ -542,3 +542,19 @@ background-repeat: no-repeat;
 }
 
 
+@media (max-width: 1107px) {
+    .container-two {
+         grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .container-two {
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .container {
+        grid-template-columns: auto;
+    }
+}
