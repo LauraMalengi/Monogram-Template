@@ -381,6 +381,11 @@ svg{
     /* border-radius: 50px; */
 }
 
+.learnmore {
+    margin: 0 9px;
+    color: #1A2456;
+}
+
 .product-section-items-1{
 background-image: url(image/Monogram_Keyboardv2_1366x1363_crop_center.png.webp);
 background-size:contain;
@@ -552,5 +557,9 @@ background-repeat: no-repeat;
     }
     .container {
         grid-template-columns: auto;
+    }
+    .main-nav {
+        display: grid;
+        grid-template-rows: auto;
     }
 }
